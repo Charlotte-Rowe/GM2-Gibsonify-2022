@@ -31,14 +31,27 @@ def getIngredientsRelevant(ingredient):
 
 print(getIngredientsRelevant("ONION"))
 
+
 def getIngredientGroup(ingredient):
     # gets group from exact ingredient name
     with open('groups.json') as json_file:
         data = json.load(json_file)
         details = data[ingredient]
         group = details['G_Descr']
-        return(group)
+        return group
 
 
 print(getIngredientGroup("BARLEY, RAW"))
 
+
+def hasCookingMethod(ingredient):
+    # return true if contains cooking method in ingredient name
+    # assume the ingredient name is exact
+    methods = ['BOILED', 'ROASTED', 'FRIED'] # this needs to be checked
+    for method in methods:
+        if ingredient.find(method) != -1:
+            return True
+    return False
+
+
+print(hasCookingMethod('ONION SMALL BOILED'))
