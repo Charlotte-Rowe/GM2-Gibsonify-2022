@@ -20,7 +20,7 @@ def getIngredientsRelevant(ingredient):
         data = json.load(json_file)
         ingCaps = ingredient.upper()
         words = ingCaps.split()
-        print(words)
+        #print(words)
         possible = []
         for item in data:
             for word in range(0, len(words)):
@@ -55,3 +55,32 @@ def hasCookingMethod(ingredient):
 
 
 print(hasCookingMethod('ONION SMALL BOILED'))
+
+def getDetails():
+    ingredient = input("Enter ingredient name:  ")
+    possible = getIngredientsRelevant(ingredient)
+    if len(possible) == 0:
+        return "ERROR: no ingredients match this name"
+    elif len(possible) == 1:
+        ingredient = possible[0]
+    elif len(possible) > 1:
+        print("Possible ingredients: ",possible)
+        picked = False
+        chosen = 0
+        while picked == False:
+            chosen = input("Please enter a number between 1 and "+str(len(possible))+":  ")
+            if not chosen.isnumeric():
+                print("INVALID INPUT: please enter a number \n")
+            elif (int(chosen) >= 1) & (int(chosen) <= len(possible)):
+                picked = True
+            else:
+                print("That is not an option.")
+        ingredient = possible[int(chosen)-1]
+    details = getIngredients(ingredient)
+    #group = getIngredientGroup(ingredient)
+    method = hasCookingMethod(ingredient)
+    #return [group, method, details]
+    return [method, details]
+
+
+print(getDetails())
