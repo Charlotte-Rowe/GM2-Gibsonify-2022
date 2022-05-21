@@ -50,7 +50,7 @@ def hasCookingMethod(ingredient):
     methods = ['BOILED', 'ROASTED', 'FRIED'] # this needs to be checked
     for method in methods:
         if ingredient.find(method) != -1:
-            return True
+            return method
     return False
 
 
