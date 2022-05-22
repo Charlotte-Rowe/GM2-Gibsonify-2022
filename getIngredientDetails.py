@@ -34,7 +34,7 @@ print(getIngredientsRelevant("ONION"))
 
 def getIngredientGroup(ingredient):
     # gets group from exact ingredient name
-    with open('groups.json') as json_file:
+    with open('groups_updated.json') as json_file:
         data = json.load(json_file)
         details = data[ingredient]
         group = details['G_Descr']
@@ -77,10 +77,9 @@ def getDetails():
                 print("That is not an option.")
         ingredient = possible[int(chosen)-1]
     details = getIngredients(ingredient)
-    #group = getIngredientGroup(ingredient)
+    group = getIngredientGroup(ingredient)
     method = hasCookingMethod(ingredient)
-    #return [group, method, details]
-    return [method, details]
+    return [group, method, details]
 
 
 print(getDetails())

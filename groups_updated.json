@@ -1,0 +1,3678 @@
+{
+   "BAJRA, RAW": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 1
+      
+   },
+   "BARLEY, RAW": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 2
+      
+   },
+   "ITALIAN MILLET": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 3
+      
+   },
+   "JOWAR RAW": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 4
+      
+   },
+   "MAIZE DRY": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 5
+      
+   },
+   "MAIZE TENDER": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 6
+      
+   },
+   "PANIVARAGU": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 7
+      
+   },
+   "RAGI RAW": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 8
+      
+   },
+   "RICE PARBOILED HANDPOUNDED": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 9
+      
+   },
+   "RICE PARBOILED MILLED": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 10
+      
+   },
+   "RICE RAW HANDPOUNDED": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 11
+      
+   },
+   "RICE RAW MILLED": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 12
+      
+   },
+   "RICE BRAN": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 13
+      
+   },
+   "RICE FLAKES": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 14
+      
+   },
+   "RICE PUFFED": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 15
+      
+   },
+   "SAMAI": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 16
+      
+   },
+   "SANWA MILLET": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 17
+      
+   },
+   "VARAGU RAW": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 18
+      
+   },
+   "WHEAT BULGAR PARBOILED": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 19
+      
+   },
+   "WHEAT WHOLE": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 20
+      
+   },
+   "WHEAT FLOUR WHOLE": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 21
+      
+   },
+   "WHEAT FLOUR REFINED": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 22
+      
+   },
+   "WHEAT GERM": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 23
+      
+   },
+   "WHEAT SEMOLINA": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 24
+      
+   },
+   "WHEAT VERMICELLI": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 25
+      
+   },
+   "WHEAT BREAD BROWN": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 26
+      
+   },
+   "WHEAT BREAD WHITE": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 27
+      
+   },
+   "AMARANTH SEEDS": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 28
+      
+   },
+   "BUCK WHEAT(455)": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 29
+      
+   },
+   "OATMEAL(460)": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 30
+      
+   },
+   "BAJRA,FLOUR,RAW ROASTED": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 31
+      
+   },
+   "WHEAT FLOUR WHOLE ROASTED": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 32
+      
+   },
+   "WHEAT FLOUR REFINED ROASTED": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 33
+      
+   },
+   "RICE PARBOILED HANDPOUNDED BOILED": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 34
+      
+   },
+   "RICE PARBOILED MILLED BOILED": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 35
+      
+   },
+   "RICE RAW HANDPOUNDED BOILED": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 36
+      
+   },
+   "RICE RAW MILLED BOILED": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 37
+      
+   },
+   "WHEAT SEMOLINA ROASTED/BOILED": {
+      
+         "G_Number": 1,
+         "G_Descr": "Cereal",
+         "G_Food_Code": 38
+      
+   },
+   "BENGAL GRAM WHOLE": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 39
+      
+   },
+   "BENGAL GRAM DAL": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 40
+      
+   },
+   "BENGAL GRAM ROASTED": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 41
+      
+   },
+   "BLACK GRAM DHAL": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 42
+      
+   },
+   "COW PEA": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 43
+      
+   },
+   "FIELD BEAN DRY": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 44
+      
+   },
+   "GREEN GRAM WHOLE": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 45
+      
+   },
+   "GREEN GRAM DHAL": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 46
+      
+   },
+   "HORSE GRAM WHOLE": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 47
+      
+   },
+   "KHESARI DHAL": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 48
+      
+   },
+   "LENTIL": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 49
+      
+   },
+   "MOTH BEANS": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 50
+      
+   },
+   "PEAS GREEN": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 51
+      
+   },
+   "PEAS DRY": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 52
+      
+   },
+   "PEAS ROASTED": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 53
+      
+   },
+   "RAJMAH": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 54
+      
+   },
+   "REDGRAM DHAL": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 55
+      
+   },
+   "RED GRAM TENDER": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 56
+      
+   },
+   "SOYABEAN": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 57
+      
+   },
+   "GREEN GRAM WHOLE BOILED": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 58
+      
+   },
+   "BENGAL GRAM BOILED": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 59
+      
+   },
+   "GREEN GRAM DHAL BOILED": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 60
+      
+   },
+   "RED GRAM DHAL BOILED": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 61
+      
+   },
+   "BENGAL GRAM DHAL BOILED": {
+      
+         "G_Number": 2,
+         "G_Descr": "Legumes & Pulses",
+         "G_Food_Code": 62
+      
+   },
+   "AGATHI": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 63
+      
+   },
+   "AMARANTH CAUDATUS": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 64
+      
+   },
+   "AMARANTH GANGETICUS TENDER": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 65
+      
+   },
+   "AMARANTH GANGETICUS STEM": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 66
+      
+   },
+   "AMARANTH PANICULATUS": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 67
+      
+   },
+   "AMARANTH POLYGONOIDES": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 68
+      
+   },
+   "AMARANTH SPINOSUS": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 69
+      
+   },
+   "AMARANTH SPECIES": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 70
+      
+   },
+   "AMARANTH SPECIES KOYAKEERAI": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 71
+      
+   },
+   "AMARANTH TRISTIS": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 72
+      
+   },
+   "AMARANTH VIRIDIS": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 73
+      
+   },
+   "AMBAT CHUKA": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 74
+      
+   },
+   "BATHUA LEAVES": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 75
+      
+   },
+   "BEET GREENS": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 76
+      
+   },
+   "BENGAL GRAM LEAVES": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 77
+      
+   },
+   "BETEL LEAVES": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 78
+      
+   },
+   "BOTTLE GOURD LEAVES": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 79
+      
+   },
+   "BROAD BEAN LEAVES": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 80
+      
+   },
+   "BRUSSELS SPROUTS": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 81
+      
+   },
+   "CABBAGE": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 82
+      
+   },
+   "CABBAGE LEAVES": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 83
+      
+   },
+   "CAULIFLOWER GREENS": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 84
+      
+   },
+   "CELERY LEAVES": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 85
+      
+   },
+   "CELERY STALK": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 86
+      
+   },
+   "CHEKKUR MANIS": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 87
+      
+   },
+   "COLOCASIA LEAVES BLACK VARIETY": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 88
+      
+   },
+   "COLOCASIA LEAVES GREEN VARIETY": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 89
+      
+   },
+   "COLOCASIA LEAVES DRIED": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 90
+      
+   },
+   "CORIANDER LEAVES": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 91
+      
+   },
+   "COW PEA LEAVES": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 92
+      
+   },
+   "CURRY LEAVES": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 93
+      
+   },
+   "DRUMSTIK LEAVES": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 94
+      
+   },
+   "FENUGREEK LEAVES": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 95
+      
+   },
+   "FETID CASSIA FRESH": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 96
+      
+   },
+   "FETID CASSIA DRIED": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 97
+      
+   },
+   "GARDEN CRESS": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 98
+      
+   },
+   "GARDEN SORREL SEPEALS": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 99
+      
+   },
+   "GOGU": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 100
+      
+   },
+   "IPOMOEA STEMS": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 101
+      
+   },
+   "IPOMOEA LEAVES": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 102
+      
+   },
+   "KNOL-KHOL GREENS": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 103
+      
+   },
+   "KUPPAMENI": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 104
+      
+   },
+   "LETTUCE": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 105
+      
+   },
+   "LETTUCE TREE LEAVES MATURE": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 106
+      
+   },
+   "LETTUCE TREE LEAVES TENDER": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 107
+      
+   },
+   "MANATHAKKALI LEAVES": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 108
+      
+   },
+   "MAYALU": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 109
+      
+   },
+   "MINT": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 110
+      
+   },
+   "MODAKANTHAN KEERAI": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 111
+      
+   },
+   "MUKARRATE KEERAI": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 112
+      
+   },
+   "MUSTARD LEAVES": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 113
+      
+   },
+   "NERRINGI": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 114
+      
+   },
+   "PARSLEY": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 115
+      
+   },
+   "PARUPPU KEERAI": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 116
+      
+   },
+   "PONNANGANNI": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 117
+      
+   },
+   "PUMPKIN LEAVES": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 118
+      
+   },
+   "RADISH LEAVES": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 119
+      
+   },
+   "RADISH LEAVES TABLE": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 120
+      
+   },
+   "RAPE STEM": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 121
+      
+   },
+   "RAPE LEAVES": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 122
+      
+   },
+   "RAPE LEAVES DRIED": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 123
+      
+   },
+   "SAFFLOWER LEAVES": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 124
+      
+   },
+   "SHEPU": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 125
+      
+   },
+   "SPINACH": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 126
+      
+   },
+   "SPINACH STALKS": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 127
+      
+   },
+   "SUSNI SAG": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 128
+      
+   },
+   "TAMARIND LEAVES TENDER": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 129
+      
+   },
+   "TURNIP GREENS": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 130
+      
+   },
+   "NEEM LEAVES MATURE(484)": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 131
+      
+   },
+   "NEEM LEAVES TENDER(485)": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 132
+      
+   },
+   "POTATO LEAVES(491)": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 133
+      
+   },
+   "SARLI SAG (496)": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 134
+      
+   },
+   "SWEET POTATO GREENS (502)": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 135
+      
+   },
+   "WATER CRESS (507)": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 136
+      
+   },
+   "CABBAGE BOILED": {
+      
+         "G_Number": 3,
+         "G_Descr": "Leafy vegetables",
+         "G_Food_Code": 137
+      
+   },
+   "ARROW ROOT FLOUR": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 138
+      
+   },
+   "BANANA RHIZOME": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 139
+      
+   },
+   "BEET ROOT": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 140
+      
+   },
+   "CARROT": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 141
+      
+   },
+   "COLOCASIA": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 142
+      
+   },
+   "KHAMALU": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 143
+      
+   },
+   "MANGO GINGER": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 144
+      
+   },
+   "ONION BIG": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 145
+      
+   },
+   "ONION SMALL": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 146
+      
+   },
+   "PARSNIP": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 147
+      
+   },
+   "POTATO": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 148
+      
+   },
+   "RADISH PINK": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 149
+      
+   },
+   "RADISH RAT TAILED": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 150
+      
+   },
+   "RADISH TABLE": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 151
+      
+   },
+   "RADISH WHITE": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 152
+      
+   },
+   "SWEET POTATO": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 153
+      
+   },
+   "TAPIOCA": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 154
+      
+   },
+   "TAPIOCA CHIPS DRIED": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 155
+      
+   },
+   "TURNIP": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 156
+      
+   },
+   "YAM ELEPHANT": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 157
+      
+   },
+   "YAM ORDINARY": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 158
+      
+   },
+   "YAM WILD": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 159
+      
+   },
+   "LOTUS ROOT (517)": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 160
+      
+   },
+   "MOOR SANGA (518)": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 161
+      
+   },
+   "POTATO BOILED": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 162
+      
+   },
+   "ONION SMALL BOILED": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 163
+      
+   },
+   "ONION BIG BOILED": {
+      
+         "G_Number": 4,
+         "G_Descr": "Roots and tuber",
+         "G_Food_Code": 164
+      
+   },
+   "ASH GOURD": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 165
+      
+   },
+   "BEANS SCARLET RUNNER": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 166
+      
+   },
+   "BITTER GOURD": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 167
+      
+   },
+   "BITTER GOURD SMALL": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 168
+      
+   },
+   "BOTTLE GOURD SMALL": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 169
+      
+   },
+   "BRINJAL": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 170
+      
+   },
+   "BROAD BEANS": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 171
+      
+   },
+   "CAULIFLOWER": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 172
+      
+   },
+   "CHO CHO MARROW": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 173
+      
+   },
+   "CLUSTER BEANS": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 174
+      
+   },
+   "COLOCASIA STEM": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 175
+      
+   },
+   "COWPEA PODS": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 176
+      
+   },
+   "CUCUMBER": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 177
+      
+   },
+   "DOUBLE BEANS": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 178
+      
+   },
+   "DRUMSTICK": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 179
+      
+   },
+   "DRUMSTICK FLOWERS": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 180
+      
+   },
+   "FIELD BEANS TENDER": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 181
+      
+   },
+   "FIGS RED FICUS CUNIA": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 182
+      
+   },
+   "FRENCH BEANS": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 183
+      
+   },
+   "GHOSALA": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 184
+      
+   },
+   "GIANT CHILLIES CAPSICUM": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 185
+      
+   },
+   "JACK FRUIT TENDER": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 186
+      
+   },
+   "JACK FRUIT SEED": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 187
+      
+   },
+   "KANKODA": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 188
+      
+   },
+   "KARONDA FRESH": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 189
+      
+   },
+   "KARONDA DRIED": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 190
+      
+   },
+   "KHEKSA": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 191
+      
+   },
+   "KOVAI": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 192
+      
+   },
+   "KNOL-KHOL": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 193
+      
+   },
+   "LADIES FINGER": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 194
+      
+   },
+   "LAKUCH RAW": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 195
+      
+   },
+   "LEEKS": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 196
+      
+   },
+   "LOTUS STEM DRY": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 197
+      
+   },
+   "MANGO GREEN": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 198
+      
+   },
+   "ONION STALKS": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 199
+      
+   },
+   "PAPAYA GREEN": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 200
+      
+   },
+   "PARWAR": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 201
+      
+   },
+   "PINK BEANS": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 202
+      
+   },
+   "PLANTAIN FLOWER": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 203
+      
+   },
+   "PLANTAIN GREEN": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 204
+      
+   },
+   "PLANTAIN STEM": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 205
+      
+   },
+   "PUMPKIN FRUIT": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 206
+      
+   },
+   "PUMPKIN FLOWERS": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 207
+      
+   },
+   "RIDGE GOURD": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 208
+      
+   },
+   "SNAKE GOURD": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 209
+      
+   },
+   "SUNDAKAI DRY": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 210
+      
+   },
+   "SWORD BEANS": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 211
+      
+   },
+   "TINDA TENDER": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 212
+      
+   },
+   "TOMATO GREEN": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 213
+      
+   },
+   "VEGETABLE MARROW": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 214
+      
+   },
+   "WATER CHESTNUT FRESH": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 215
+      
+   },
+   "WATER CHESNUT DRY": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 216
+      
+   },
+   "BAMBOO TENNDER SHOOTS(469)": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 217
+      
+   },
+   "AGATHI FLOWERS (525)": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 218
+      
+   },
+   "BAGNAHA (527)": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 219
+      
+   },
+   "CHALTHA (529)": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 220
+      
+   },
+   "NISORHA FLOWERS (535)": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 221
+      
+   },
+   "SANNHEMP FLOWERS (538)": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 222
+      
+   },
+   "BOROOEE(559)": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 223
+      
+   },
+   "LADIES FINGERS FRIED": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 224
+      
+   },
+   "KANKODA FRIED": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 225
+      
+   },
+   "BOTTLE GOURD FRIED": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 226
+      
+   },
+   "GHOSALA FRIED": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 227
+      
+   },
+   "BRINJAL BOILED": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 228
+      
+   },
+   "CLUSTER BEANS BOILED": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 229
+      
+   },
+   "BITTER GOURD BOILED": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 230
+      
+   },
+   "PINK BEANS BOILED": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 231
+      
+   },
+   "COWPEA PODS BOILED": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 232
+      
+   },
+   "PARWAL BOILED": {
+      
+         "G_Number": 5,
+         "G_Descr": "Vegetables",
+         "G_Food_Code": 233
+      
+   },
+   "ALMOND": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 234
+      
+   },
+   "ARECANUT RAW": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 235
+      
+   },
+   "AVOCADOPEAR NUT": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 236
+      
+   },
+   "CASHEWNUT": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 237
+      
+   },
+   "CHILGOZA": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 238
+      
+   },
+   "COCONUT DRY": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 239
+      
+   },
+   "COCONUT FRESH": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 240
+      
+   },
+   "COCONUT TENDER": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 241
+      
+   },
+   "COCONUT MILK": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 242
+      
+   },
+   "COCONUT WATER": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 243
+      
+   },
+   "COCONUT MEAL DEOILED": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 244
+      
+   },
+   "GARDEN CRESS SEADS": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 245
+      
+   },
+   "GINGELLY SEEDS": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 246
+      
+   },
+   "GROUNDNUT": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 247
+      
+   },
+   "GROUNDNUT ROASTED": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 248
+      
+   },
+   "GROUNDNUT CAKE": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 249
+      
+   },
+   "LINSEED SEEDS": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 250
+      
+   },
+   "MUSTARD SEEDS": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 251
+      
+   },
+   "NIGER SEEDS": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 252
+      
+   },
+   "PISTACHIO NUT": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 253
+      
+   },
+   "PIYAL SEEDS": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 254
+      
+   },
+   "SAFFLOWER SEEDS": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 255
+      
+   },
+   "SUNFLOWER SEEDS": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 256
+      
+   },
+   "WALNUT": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 257
+      
+   },
+   "WATER MELON SEEDS KERNAL": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 258
+      
+   },
+   "RAJKEERA SEEDS(454)": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 259
+      
+   },
+   "JANGALI BADAM (545)": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 260
+      
+   },
+   "TAMARIND SEEDS KERNEL ROASTED (550)": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 261
+      
+   },
+   "PUMPKIN SEED (551)": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 262
+      
+   },
+   "MUSTARD SEEDS BOILED": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 263
+      
+   },
+   "RAJKEERA SEEDS ROASTED": {
+      
+         "G_Number": 6,
+         "G_Descr": "Nuts and oil seeds",
+         "G_Food_Code": 264
+      
+   },
+   "ARISITHIPPILI": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 265
+      
+   },
+   "ASAFOTIDA": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 266
+      
+   },
+   "CARDAMOM": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 267
+      
+   },
+   "CHILLIES DRY": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 268
+      
+   },
+   "CHILLIES GREEN": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 269
+      
+   },
+   "CLOVES DRY": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 270
+      
+   },
+   "CLOVES GREEN": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 271
+      
+   },
+   "CORINDER SEEDS": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 272
+      
+   },
+   "CUMIN SEEDS": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 273
+      
+   },
+   "FENUGREEK SEEDS": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 274
+      
+   },
+   "GARLIC DRY": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 275
+      
+   },
+   "GINGER FRESH": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 276
+      
+   },
+   "LIME PEEL": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 277
+      
+   },
+   "MACE": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 278
+      
+   },
+   "MANGO POWDER": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 279
+      
+   },
+   "NUTMEG FRUIT": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 280
+      
+   },
+   "NUTMEG RIND": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 281
+      
+   },
+   "OMUM": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 282
+      
+   },
+   "PEEPER DRY BLACK": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 283
+      
+   },
+   "PEPPER GREEN": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 284
+      
+   },
+   "PIPPALI": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 285
+      
+   },
+   "POPPY SEEDS": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 286
+      
+   },
+   "TAMARIND PULP": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 287
+      
+   },
+   "TURMERIC": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 288
+      
+   },
+   "CHILLIES DRY BOILED": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 289
+      
+   },
+   "CHILLIES GREEN BOILED": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 290
+      
+   },
+   "CUMIN SEEDS BOILED": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 291
+      
+   },
+   "GARLIC BOILED": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 292
+      
+   },
+   "GINGER BOILED": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 293
+      
+   },
+   "OMUM FRIED": {
+      
+         "G_Number": 7,
+         "G_Descr": "Spices & Condiments",
+         "G_Food_Code": 294
+      
+   },
+   "AMBADA": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 295
+      
+   },
+   "AMLA": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 296
+      
+   },
+   "APPLE": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 297
+      
+   },
+   "APRICOT FRESH": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 298
+      
+   },
+   "APRICOT DRY": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 299
+      
+   },
+   "AVOCADO PEAR": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 300
+      
+   },
+   "BAEL FRUIT": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 301
+      
+   },
+   "BANANA RIPE": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 302
+      
+   },
+   "BANYAN TREE FIGS": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 303
+      
+   },
+   "BILIMBI": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 304
+      
+   },
+   "BREAD FRUIT": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 305
+      
+   },
+   "BULLOCKS HEART": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 306
+      
+   },
+   "CAPE GOOSEBERRY": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 307
+      
+   },
+   "CASHEW FRUIT": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 308
+      
+   },
+   "CHERRIES RED": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 309
+      
+   },
+   "CURRANTS BLACK": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 310
+      
+   },
+   "DATES DRIED": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 311
+      
+   },
+   "DATES FRESH": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 312
+      
+   },
+   "FIGS FICUS CARCIA": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 313
+      
+   },
+   "GRAPES BLUE VARIETY": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 314
+      
+   },
+   "GRAPES PALE GREEN VARIETY": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 315
+      
+   },
+   "GRAPE FRUIT MARSHS SEEDLESS": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 316
+      
+   },
+   "GRAPE FRUIT TRIUMPH": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 317
+      
+   },
+   "GUAVA COUNTRY": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 318
+      
+   },
+   "GUAVA HILL": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 319
+      
+   },
+   "HARFAROWRIE": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 320
+      
+   },
+   "JACK FRUIT RIPE": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 321
+      
+   },
+   "JAMB SAFED": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 322
+      
+   },
+   "JAMBU FRUIT": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 323
+      
+   },
+   "KORUKKAPALLI": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 324
+      
+   },
+   "LAKUCH": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 325
+      
+   },
+   "LEMON": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 326
+      
+   },
+   "LEMON SWEET": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 327
+      
+   },
+   "LICHI": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 328
+      
+   },
+   "LICHIES BASTARD": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 329
+      
+   },
+   "LIME": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 330
+      
+   },
+   "LIME SWEET MALTA": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 331
+      
+   },
+   "LIME SWEET MOSAMBI": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 332
+      
+   },
+   "LOQUAT": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 333
+      
+   },
+   "MAHUA RIPE": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 334
+      
+   },
+   "MANGO RIPE": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 335
+      
+   },
+   "MANGOSTEEN": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 336
+      
+   },
+   "MELON MUSK": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 337
+      
+   },
+   "MELON WATER": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 338
+      
+   },
+   "MULBERRY": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 339
+      
+   },
+   "ORANGE": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 340
+      
+   },
+   "ORANGE JUICE": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 341
+      
+   },
+   "PALMYRA FRUIT RIPE MESOCARP": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 342
+      
+   },
+   "PALMYRA FRUIT TENDER": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 343
+      
+   },
+   "PAPAYA RIPE": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 344
+      
+   },
+   "PASSION FRUIT": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 345
+      
+   },
+   "PASSION FRUIT JUICE": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 346
+      
+   },
+   "PEACHES": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 347
+      
+   },
+   "PEARS": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 348
+      
+   },
+   "PERSIMMON": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 349
+      
+   },
+   "PHALSA": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 350
+      
+   },
+   "PINE APPLE": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 351
+      
+   },
+   "PLUMS": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 352
+      
+   },
+   "POMEGRANATE": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 353
+      
+   },
+   "PRUNES": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 354
+      
+   },
+   "PUMMELO": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 355
+      
+   },
+   "RAISINS": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 356
+      
+   },
+   "RASPBERRY": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 357
+      
+   },
+   "ROSEAPPLE": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 358
+      
+   },
+   "SAPOTA": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 359
+      
+   },
+   "SEETAPHAL": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 360
+      
+   },
+   "STRAWBERRY": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 361
+      
+   },
+   "TOMATO RIPE": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 362
+      
+   },
+   "TOMATILLO": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 363
+      
+   },
+   "TREE TOMATO": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 364
+      
+   },
+   "WOOD APPLE": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 365
+      
+   },
+   "ZIZYPHUS": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 366
+      
+   },
+   "CARAMBOLA (560)": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 367
+      
+   },
+   "KUSUM FRUITS (567)": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 368
+      
+   },
+   "NEEM FRUIT (572)": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 369
+      
+   },
+   "NISORHA (573)": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 370
+      
+   },
+   "TOMATO RIPE BOILED": {
+      
+         "G_Number": 8,
+         "G_Descr": "Fruits",
+         "G_Food_Code": 371
+      
+   },
+   "AIR": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 372
+      
+   },
+   "ANCHOVY": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 373
+      
+   },
+   "BACHA": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 374
+      
+   },
+   "BAM": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 375
+      
+   },
+   "BASPATA MACHLI": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 376
+      
+   },
+   "BATA SMALL VARIETIES": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 377
+      
+   },
+   "BELEY": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 378
+      
+   },
+   "BHAGON FRESH": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 379
+      
+   },
+   "BHAGON DRIED": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 380
+      
+   },
+   "BHAGAN BATA": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 381
+      
+   },
+   "BHEKTI FRESH": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 382
+      
+   },
+   "BHEKTI DRIED": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 383
+      
+   },
+   "BHOLA": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 384
+      
+   },
+   "BIG JAWED JUMPER": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 385
+      
+   },
+   "BOAL": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 386
+      
+   },
+   "BOMBAY DUCK DRIED": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 387
+      
+   },
+   "BLUE MUSSEL": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 388
+      
+   },
+   "CAT FISH": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 389
+      
+   },
+   "CHELA": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 390
+      
+   },
+   "CHELA DRIED": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 391
+      
+   },
+   "CHINGRI SMALL DRIED": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 392
+      
+   },
+   "CHINGRI GODA DRIED": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 393
+      
+   },
+   "CHITAL": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 394
+      
+   },
+   "CRAB MUSCLE": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 395
+      
+   },
+   "CRAB SMALL": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 396
+      
+   },
+   "FOLUI": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 397
+      
+   },
+   "GHOL": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 398
+      
+   },
+   "GOGGLER": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 399
+      
+   },
+   "HERRING INDIAN": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 400
+      
+   },
+   "HERRING OX-EYED": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 401
+      
+   },
+   "HILSA": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 402
+      
+   },
+   "HORSE MACKEREL": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 403
+      
+   },
+   "INDIAN WHITING": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 404
+      
+   },
+   "JEW FISH KORA": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 405
+      
+   },
+   "JEW FISH PALLIKORA": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 406
+      
+   },
+   "KALABASU": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 407
+      
+   },
+   "KATLA": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 408
+      
+   },
+   "KHORSULA": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 409
+      
+   },
+   "KHOYRA FRESH": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 410
+      
+   },
+   "KHOYRA DRIED": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 411
+      
+   },
+   "KOI": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 412
+      
+   },
+   "KOOCHA MACHLI": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 413
+      
+   },
+   "LATA": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 414
+      
+   },
+   "LOBSTER": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 415
+      
+   },
+   "MACKEREL": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 416
+      
+   },
+   "MAGUR": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 417
+      
+   },
+   "MAHASOLE": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 418
+      
+   },
+   "MANDELI DRIED": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 419
+      
+   },
+   "MRIGAL": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 420
+      
+   },
+   "MULLET": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 421
+      
+   },
+   "MUSHI DRIED": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 422
+      
+   },
+   "MUSSEL FRESH WATER": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 423
+      
+   },
+   "MUTIJELLA DRIED": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 424
+      
+   },
+   "OIL SARDINE": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 425
+      
+   },
+   "PABDA": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 426
+      
+   },
+   "PANGAS": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 427
+      
+   },
+   "PARSEY FRESH": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 428
+      
+   },
+   "PARSEY DRIED": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 429
+      
+   },
+   "POMFRETS BLACK": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 430
+      
+   },
+   "POMFRETS WHITE": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 431
+      
+   },
+   "PRAWN": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 432
+      
+   },
+   "PUTI": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 433
+      
+   },
+   "RAVAS": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 434
+      
+   },
+   "RAY": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 435
+      
+   },
+   "RIBBON FISH FRESH": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 436
+      
+   },
+   "RIBBON FISH DRIED": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 437
+      
+   },
+   "ROHU": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 438
+      
+   },
+   "SARDINE": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 439
+      
+   },
+   "SARPUTI": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 440
+      
+   },
+   "SHARK": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 441
+      
+   },
+   "SHRIMP SMALL-DRIED": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 442
+      
+   },
+   "SEER": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 443
+      
+   },
+   "SIVER BELLY": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 444
+      
+   },
+   "SINGHALA": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 445
+      
+   },
+   "SINGHI": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 446
+      
+   },
+   "SOLE": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 447
+      
+   },
+   "SOLE MALAHAR": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 448
+      
+   },
+   "SURMAI FRESH": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 449
+      
+   },
+   "SURMAI DRIED": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 450
+      
+   },
+   "TAPRA DRIED": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 451
+      
+   },
+   "TAPSI DRIED": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 452
+      
+   },
+   "TARTOOR": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 453
+      
+   },
+   "TENGRA FRESH": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 454
+      
+   },
+   "TENGRA DRIED": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 455
+      
+   },
+   "TUNNY": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 456
+      
+   },
+   "WHITE BAIT": {
+      
+         "G_Number": 9,
+         "G_Descr": "Fish",
+         "G_Food_Code": 457
+      
+   },
+   "BEEF MEAL": {
+      
+         "G_Number": 10,
+         "G_Descr": "Meats & Poultry",
+         "G_Food_Code": 458
+      
+   },
+   "BEEF MUSCLE": {
+      
+         "G_Number": 10,
+         "G_Descr": "Meats & Poultry",
+         "G_Food_Code": 459
+      
+   },
+   "BUFFALO MEAT": {
+      
+         "G_Number": 10,
+         "G_Descr": "Meats & Poultry",
+         "G_Food_Code": 460
+      
+   },
+   "DUCK": {
+      
+         "G_Number": 10,
+         "G_Descr": "Meats & Poultry",
+         "G_Food_Code": 461
+      
+   },
+   "EGG DUCK": {
+      
+         "G_Number": 10,
+         "G_Descr": "Egg",
+         "G_Food_Code": 462
+      
+   },
+   "EGG HEN": {
+      
+         "G_Number": 10,
+         "G_Descr": "Egg",
+         "G_Food_Code": 463
+      
+   },
+   "EGG TURTLE": {
+      
+         "G_Number": 10,
+         "G_Descr": "Egg",
+         "G_Food_Code": 464
+      
+   },
+   "FINCH": {
+      
+         "G_Number": 10,
+         "G_Descr": "Meats & Poultry",
+         "G_Food_Code": 465
+      
+   },
+   "FOWL": {
+      
+         "G_Number": 10,
+         "G_Descr": "Meats & Poultry",
+         "G_Food_Code": 466
+      
+   },
+   "GOAT MEAT LEAN": {
+      
+         "G_Number": 10,
+         "G_Descr": "Meats & Poultry",
+         "G_Food_Code": 467
+      
+   },
+   "GREY QUAIL": {
+      
+         "G_Number": 10,
+         "G_Descr": "Meats & Poultry",
+         "G_Food_Code": 468
+      
+   },
+   "LIVER GOAT": {
+      
+         "G_Number": 10,
+         "G_Descr": "Meats & Poultry",
+         "G_Food_Code": 469
+      
+   },
+   "LIVER SHEEP": {
+      
+         "G_Number": 10,
+         "G_Descr": "Meats & Poultry",
+         "G_Food_Code": 470
+      
+   },
+   "MUTTON MUSCLE": {
+      
+         "G_Number": 10,
+         "G_Descr": "Meats & Poultry",
+         "G_Food_Code": 471
+      
+   },
+   "PIGEON": {
+      
+         "G_Number": 10,
+         "G_Descr": "Meats & Poultry",
+         "G_Food_Code": 472
+      
+   },
+   "PORK MUSCLE": {
+      
+         "G_Number": 10,
+         "G_Descr": "Meats & Poultry",
+         "G_Food_Code": 473
+      
+   },
+   "RUFF AND REEVE": {
+      
+         "G_Number": 10,
+         "G_Descr": "Meats & Poultry",
+         "G_Food_Code": 474
+      
+   },
+   "SNAIL SMALL": {
+      
+         "G_Number": 10,
+         "G_Descr": "Meats & Poultry",
+         "G_Food_Code": 475
+      
+   },
+   "SNAIL BIG": {
+      
+         "G_Number": 10,
+         "G_Descr": "Meats & Poultry",
+         "G_Food_Code": 476
+      
+   },
+   "TURTLES MEAT": {
+      
+         "G_Number": 10,
+         "G_Descr": "Meats & Poultry",
+         "G_Food_Code": 477
+      
+   },
+   "VENISON": {
+      
+         "G_Number": 10,
+         "G_Descr": "Meats & Poultry",
+         "G_Food_Code": 478
+      
+   },
+   "YEAST DRIED BREWERS (591)": {
+      
+         "G_Number": 10,
+         "G_Descr": "Meats & Poultry",
+         "G_Food_Code": 479
+      
+   },
+   "YEAST DRIED FOOD (592)": {
+      
+         "G_Number": 10,
+         "G_Descr": "Meats & Poultry",
+         "G_Food_Code": 480
+      
+   },
+   "MILK ASS'S": {
+      
+         "G_Number": 11,
+         "G_Descr": "Milk and Milk products",
+         "G_Food_Code": 481
+      
+   },
+   "MILK BUFFALO'S": {
+      
+         "G_Number": 11,
+         "G_Descr": "Milk and Milk products",
+         "G_Food_Code": 482
+      
+   },
+   "MILK COWS": {
+      
+         "G_Number": 11,
+         "G_Descr": "Milk and Milk products",
+         "G_Food_Code": 483
+      
+   },
+   "MILK GOAT'S": {
+      
+         "G_Number": 11,
+         "G_Descr": "Milk and Milk products",
+         "G_Food_Code": 484
+      
+   },
+   "MILK HUMAN": {
+      
+         "G_Number": 11,
+         "G_Descr": "Milk and Milk products",
+         "G_Food_Code": 485
+      
+   },
+   "CURDS COW'S MILK": {
+      
+         "G_Number": 11,
+         "G_Descr": "Milk and Milk products",
+         "G_Food_Code": 486
+      
+   },
+   "BUTTER MILK": {
+      
+         "G_Number": 11,
+         "G_Descr": "Milk and Milk products",
+         "G_Food_Code": 487
+      
+   },
+   "SKIMMED MILK LIQUID": {
+      
+         "G_Number": 11,
+         "G_Descr": "Milk and Milk products",
+         "G_Food_Code": 488
+      
+   },
+   "CHANNA COW'S MILK": {
+      
+         "G_Number": 11,
+         "G_Descr": "Milk and Milk products",
+         "G_Food_Code": 489
+      
+   },
+   "CHANNA BUFFALOS MILK": {
+      
+         "G_Number": 11,
+         "G_Descr": "Milk and Milk products",
+         "G_Food_Code": 490
+      
+   },
+   "CHEESE": {
+      
+         "G_Number": 11,
+         "G_Descr": "Milk and Milk products",
+         "G_Food_Code": 491
+      
+   },
+   "KHOA WHOLE BUFFALO MILK": {
+      
+         "G_Number": 11,
+         "G_Descr": "Milk and Milk products",
+         "G_Food_Code": 492
+      
+   },
+   "KHOA SKIMMED BUFFALO MILK": {
+      
+         "G_Number": 11,
+         "G_Descr": "Milk and Milk products",
+         "G_Food_Code": 493
+      
+   },
+   "KHOA WHOLE COWS MILK": {
+      
+         "G_Number": 11,
+         "G_Descr": "Milk and Milk products",
+         "G_Food_Code": 494
+      
+   },
+   "SKIMMED MILK POWDER COWS MILK": {
+      
+         "G_Number": 11,
+         "G_Descr": "Milk and Milk products",
+         "G_Food_Code": 495
+      
+   },
+   "WHOLE MILK POWDER": {
+      
+         "G_Number": 11,
+         "G_Descr": "Milk and Milk products",
+         "G_Food_Code": 496
+      
+   },
+   "MILK COWS BOILED": {
+      
+         "G_Number": 11,
+         "G_Descr": "Milk and Milk products",
+         "G_Food_Code": 497
+      
+   },
+   "MILK BUFFALO'S BOILED": {
+      
+         "G_Number": 11,
+         "G_Descr": "Milk and Milk products",
+         "G_Food_Code": 498
+      
+   },
+   "MILK ASS'S BOILED": {
+      
+         "G_Number": 11,
+         "G_Descr": "Milk and Milk products",
+         "G_Food_Code": 499
+      
+   },
+   "MILK GOAT'S BOILED": {
+      
+         "G_Number": 11,
+         "G_Descr": "Milk and Milk products",
+         "G_Food_Code": 500
+      
+   },
+   "BUTTER MILK BOILED": {
+      
+         "G_Number": 11,
+         "G_Descr": "Milk and Milk products",
+         "G_Food_Code": 501
+      
+   },
+   "BUTTER": {
+      
+         "G_Number": 12,
+         "G_Descr": "Fats and edible oil",
+         "G_Food_Code": 502
+      
+   },
+   "GHEE COW": {
+      
+         "G_Number": 12,
+         "G_Descr": "Fats and edible oil",
+         "G_Food_Code": 503
+      
+   },
+   "GHEE BUFFALO": {
+      
+         "G_Number": 12,
+         "G_Descr": "Fats and edible oil",
+         "G_Food_Code": 504
+      
+   },
+   "HYDROGENATED OIL FORTIFIED": {
+      
+         "G_Number": 12,
+         "G_Descr": "Fats and edible oil",
+         "G_Food_Code": 505
+      
+   },
+   "COOKING OIL GROUNDNUT,GINGELLY,PALMOLEIN,MUSTARD,COCONUT": {
+      
+         "G_Number": 12,
+         "G_Descr": "Fats and edible oil",
+         "G_Food_Code": 506
+      
+   },
+   "HYDROGENATED OIL FORTIFIED BOILED": {
+      
+         "G_Number": 12,
+         "G_Descr": "Fats and edible oil",
+         "G_Food_Code": 507
+      
+   },
+   "COOKING OIL BOILED": {
+      
+         "G_Number": 12,
+         "G_Descr": "Fats and edible oil",
+         "G_Food_Code": 508
+      
+   },
+   "GHEE BOILED/ROASTED": {
+      
+         "G_Number": 12,
+         "G_Descr": "Fats and edible oil",
+         "G_Food_Code": 509
+      
+   },
+   "SUGARCANE": {
+      
+         "G_Number": 13,
+         "G_Descr": "Sugar",
+         "G_Food_Code": 510
+      
+   },
+   "HONEY": {
+      
+         "G_Number": 13,
+         "G_Descr": "Sugar",
+         "G_Food_Code": 511
+      
+   },
+   "JAGGERY CANE": {
+      
+         "G_Number": 13,
+         "G_Descr": "Sugar",
+         "G_Food_Code": 512
+      
+   },
+   "JAGGERY COCONUT PALM": {
+      
+         "G_Number": 13,
+         "G_Descr": "Sugar",
+         "G_Food_Code": 513
+      
+   },
+   "JAGGERY DATE PALM": {
+      
+         "G_Number": 13,
+         "G_Descr": "Sugar",
+         "G_Food_Code": 514
+      
+   },
+   "JAGGERY FAN PALM": {
+      
+         "G_Number": 13,
+         "G_Descr": "Sugar",
+         "G_Food_Code": 515
+      
+   },
+   "JAGGERY SAGO PALM": {
+      
+         "G_Number": 13,
+         "G_Descr": "Sugar",
+         "G_Food_Code": 516
+      
+   },
+   "SAGO": {
+      
+         "G_Number": 13,
+         "G_Descr": "Sugar",
+         "G_Food_Code": 517
+      
+   },
+   "SUGAR,GRANULATED,RAW BOILED": {
+      
+         "G_Number": 13,
+         "G_Descr": "Sugar",
+         "G_Food_Code": 518
+      
+   },
+   "JAGGERY ROASTED/BOILED": {
+      
+         "G_Number": 13,
+         "G_Descr": "Sugar",
+         "G_Food_Code": 519
+      
+   },
+   "PACHWAI ASSAM": {
+      
+         "G_Number": 14,
+         "G_Descr": "Beverages (Alcoholic)",
+         "G_Food_Code": 520
+      
+   },
+   "TODDY FERMENTED": {
+      
+         "G_Number": 14,
+         "G_Descr": "Beverages (Alcoholic)",
+         "G_Food_Code": 521
+      
+   },
+   "TODDY SWEET": {
+      
+         "G_Number": 14,
+         "G_Descr": "Beverages (Alcoholic)",
+         "G_Food_Code": 522
+      
+   },
+   "NEERA": {
+      
+         "G_Number": 15,
+         "G_Descr": "Beverages (Non-Alcoholic)",
+         "G_Food_Code": 523
+      
+   },
+   "SUGARCANE JUICE": {
+      
+         "G_Number": 15,
+         "G_Descr": "Beverages (Non-Alcoholic)",
+         "G_Food_Code": 524
+      
+   },
+   "Other (please specify)": {
+      
+         "G_Number": 16,
+         "G_Descr": "Other",
+         "G_Food_Code": 525
+      
+   }
+      
+   }
