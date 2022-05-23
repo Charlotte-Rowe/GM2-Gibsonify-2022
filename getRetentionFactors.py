@@ -69,22 +69,19 @@ filename = os.path.join(here, 'Appendix-1-D1_D2_D3_Sample Data.xlsx')
 sample_dataset = pd.read_excel(filename)
 data = pd.DataFrame(sample_dataset)
 
-print("The content of the file is:\n", data)
-print(data.columns)
+# Build dictionary relating cooking method numbers to cooking methods
 
 def build_cooking_method_list():
     method_codes = []
     method = []
     codes = list(data['Code'])
     descriptions = list(data['Description'])
-    list_start_index = data.index[data['Varuiable'] == 'WHEN_EATEN']
-    list_end_index = data.index[data['Varuiable'] == 'MEASUR_METHOD']
-    print(list_start_index)
-    index = 10
+    list_start_index = data.index[data['Varuiable'] == 'WHEN_EATEN'].values[0]
+    list_end_index = data.index[data['Varuiable'] == 'MEASUR_METHOD'].values[0]
+    index = list_start_index
     while index < list_end_index:
-        print(codes[index])
         method_codes.append(codes[index])
-        method.append(descriptions[index])
+        method.append(descriptions[index].upper())
         index += 1
     code_to_method = dict(zip(method_codes, method))
     return code_to_method
@@ -94,4 +91,4 @@ def build_cooking_method_list():
 #print(ret_cheese_baked)
 
 method_list = build_cooking_method_list()
-print(method_list)
+print(method_list[2])
