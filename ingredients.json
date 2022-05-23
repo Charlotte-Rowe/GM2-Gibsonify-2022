@@ -13529,7 +13529,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "BUCK WHEAT(455)": {
+    "BUCK WHEAT": {
         "C_CODE": 453,
         "C_STATE": 1,
         "C_DRYMATTER_G": 88.7,
@@ -13559,7 +13559,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "OATMEAL(460)": {
+    "OATMEAL": {
         "C_CODE": 454,
         "C_STATE": 1,
         "C_DRYMATTER_G": 89.3,
@@ -13589,7 +13589,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "RAJKEERA SEEDS(454)": {
+    "RAJKEERA SEEDS": {
         "C_CODE": 455,
         "C_STATE": 1,
         "C_DRYMATTER_G": 90.7,
@@ -13619,7 +13619,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "BAMB00 TENNDER SHOOTS(469)": {
+    "BAMB00 TENNDER SHOOTS": {
         "C_CODE": 456,
         "C_STATE": 1,
         "C_DRYMATTER_G": 11.2,
@@ -13649,7 +13649,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "NEEM LEAVES MATURE(484)": {
+    "NEEM LEAVES MATURE": {
         "C_CODE": 457,
         "C_STATE": 1,
         "C_DRYMATTER_G": 40.6,
@@ -13679,7 +13679,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "NEEM LEAVES TENDER(485)": {
+    "NEEM LEAVES TENDER": {
         "C_CODE": 458,
         "C_STATE": 1,
         "C_DRYMATTER_G": 40.6,
@@ -13709,7 +13709,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "POTATO LEAVES(491)": {
+    "POTATO LEAVES": {
         "C_CODE": 459,
         "C_STATE": 1,
         "C_DRYMATTER_G": 12,
@@ -13739,7 +13739,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "SARLI SAG (496)": {
+    "SARLI SAG": {
         "C_CODE": 460,
         "C_STATE": 1,
         "C_DRYMATTER_G": 23.1,
@@ -13769,7 +13769,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "SWEET POTATO GREENS (502)": {
+    "SWEET POTATO GREENS": {
         "C_CODE": 461,
         "C_STATE": 1,
         "C_DRYMATTER_G": 19.3,
@@ -13799,7 +13799,7 @@
         "C_BETA_CAROT_MCG": 750,
         "C_BETA_CRYPT_MCG": 0
     },
-    "WATER CRESS (507)": {
+    "WATER CRESS": {
         "C_CODE": 462,
         "C_STATE": 1,
         "C_DRYMATTER_G": 10.8,
@@ -13829,7 +13829,7 @@
         "C_BETA_CAROT_MCG": 2803,
         "C_BETA_CRYPT_MCG": 0
     },
-    "LOTUS ROOT (517)": {
+    "LOTUS ROOT": {
         "C_CODE": 463,
         "C_STATE": 1,
         "C_DRYMATTER_G": 14.1,
@@ -13859,7 +13859,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "MOOR SANGA (518)": {
+    "MOOR SANGA": {
         "C_CODE": 464,
         "C_STATE": 1,
         "C_DRYMATTER_G": 54.6,
@@ -13889,7 +13889,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "AGATHI FLOWERS (525)": {
+    "AGATHI FLOWERS": {
         "C_CODE": 465,
         "C_STATE": 1,
         "C_DRYMATTER_G": 7.1,
@@ -13919,7 +13919,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "BAGNAHA (527)": {
+    "BAGNAHA": {
         "C_CODE": 466,
         "C_STATE": 1,
         "C_DRYMATTER_G": 33,
@@ -13949,7 +13949,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "CHALTHA (529)": {
+    "CHALTHA": {
         "C_CODE": 467,
         "C_STATE": 1,
         "C_DRYMATTER_G": 17.7,
@@ -13979,7 +13979,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "NISORHA FLOWERS (535)": {
+    "NISORHA FLOWERS": {
         "C_CODE": 468,
         "C_STATE": 1,
         "C_DRYMATTER_G": 20.4,
@@ -14009,7 +14009,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "SANNHEMP FLOWERS (538)": {
+    "SANNHEMP FLOWERS": {
         "C_CODE": 469,
         "C_STATE": 1,
         "C_DRYMATTER_G": 21.1,
@@ -14039,7 +14039,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "JANGALI BADAM (545)": {
+    "JANGALI BADAM": {
         "C_CODE": 470,
         "C_STATE": 1,
         "C_DRYMATTER_G": 64.4,
@@ -14069,7 +14069,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "TAMARIND SEEDS KERNEL ROASTED (550)": {
+    "TAMARIND SEEDS KERNEL ROASTED": {
         "C_CODE": 471,
         "C_STATE": 1,
         "C_DRYMATTER_G": 90.1,
@@ -14099,7 +14099,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "PUMPKIN SEED (551)": {
+    "PUMPKIN SEED": {
         "C_CODE": 472,
         "C_STATE": 1,
         "C_DRYMATTER_G": 92,
@@ -14129,7 +14129,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "BOROOEE(559)": {
+    "BOROOEE": {
         "C_CODE": 473,
         "C_STATE": 1,
         "C_DRYMATTER_G": 25.9,
@@ -14159,7 +14159,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "CARAMBOLA (560)": {
+    "CARAMBOLA": {
         "C_CODE": 474,
         "C_STATE": 1,
         "C_DRYMATTER_G": 8.1,
@@ -14189,7 +14189,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "KUSUM FRUITS (567)": {
+    "KUSUM FRUITS": {
         "C_CODE": 475,
         "C_STATE": 1,
         "C_DRYMATTER_G": 13.8,
@@ -14219,7 +14219,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "NEEM FRUIT (572)": {
+    "NEEM FRUIT": {
         "C_CODE": 476,
         "C_STATE": 1,
         "C_DRYMATTER_G": 18.1,
@@ -14249,7 +14249,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "NISORHA (573)": {
+    "NISORHA": {
         "C_CODE": 477,
         "C_STATE": 1,
         "C_DRYMATTER_G": 17.5,
@@ -14279,7 +14279,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "YEAST DRIED BREWERS (591)": {
+    "YEAST DRIED BREWERS": {
         "C_CODE": 478,
         "C_STATE": 1,
         "C_DRYMATTER_G": 86.4,
@@ -14309,7 +14309,7 @@
         "C_BETA_CAROT_MCG": 0,
         "C_BETA_CRYPT_MCG": 0
     },
-    "YEAST DRIED FOOD (592)": {
+    "YEAST DRIED FOOD": {
         "C_CODE": 479,
         "C_STATE": 1,
         "C_DRYMATTER_G": 92.2,
