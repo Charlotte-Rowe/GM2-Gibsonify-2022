@@ -101,11 +101,10 @@ def getDetails():
                 print("That is not an option.")
         ingredient = possible[int(chosen)-1]
     details = getIngredients(ingredient)
-    group = matchGroups(ingredient)
+    group = matchGroups(ingredient)     # have made the default values pork, seafood, veg(root), cereal, veg oil, milk
     method = hasCookingMethod(ingredient)
-    # if method not = then dont get retention factor
-    # if group = 0 then can't get retention factor
-    # have made the default values pork, seafood, veg(root), cereal, veg oil, milk
+    if method != 0:     # if method not = 0 then dont get retention factor
+        group = 0 # if group = 0 we do not get the retention factor
     return [group, method, details]
 
 
