@@ -1,6 +1,7 @@
 import json
 import pandas
 
+
 def getIngredients(ingredient):
     # gets nutrient information
     # ingredient must match ingredient name in all ways except the case
@@ -52,6 +53,21 @@ def hasCookingMethod(ingredient):
 
 
 #print(hasCookingMethod('ONION SMALL BOILED'))
+
+def cookingMethodEntry(ingredient, method):
+    relevant = getIngredientsRelevant(ingredient.upper())
+    possible = []
+    for item in relevant:
+        if item.find(" "+method.upper()) != -1:
+            possible.append(item)
+    if len(possible)==1:
+        return possible[0]
+    elif len(possible)>1:
+        return possible
+    return False
+
+
+print(cookingMethodEntry("RICE", "BOILED"))
 
 def matchGroups(ingredient):
     group = getIngredientGroup(ingredient)
@@ -110,5 +126,6 @@ def getDetails():
 
 #print(matchGroups("ONION SMALL BOILED"))
 #print(matchGroups("BARLEY, RAW"))
-print(getDetails())
+
+#print(getDetails())
 
