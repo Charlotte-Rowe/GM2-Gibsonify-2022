@@ -34,15 +34,23 @@ def add_ret_factors():
         ret_factors = []
         for i in range(rows):
             ret_factors.append(get_ret_factor(data.ITEM_OR_NAME_DISH[i], data.WHEN_EATEN[i], nutrient))
-        print(nutrient)
         data['RET_'+ nutrient] = ret_factors
 
-#def get_nutrient_info():
+def add_nutrient_info():
+    for nutrient in nutrient_names:
+        nutrient_info = []
+        for i in range(rows):
+            nutrient_info.append(get_nutrient_info(data.ITEM_OR_NAME_DISH[i], data.WHEN_EATEN[i], nutrient, data.MEASUREMENT[i])) # MEASUREMENT IS PLACEHOLDER FOR MASS COLUMN THAT SHOULD BE OUTPUT FROM PART ONE 
+        data[nutrient] = nutrient_info
 
 def get_ret_factor(food_name, cooking_method, nutrient_name):
     return 1
 
+def get_nutrient_info(food_name, cooking_method, nutrient_name, mass):
+    return 1
+
 add_ret_factors()
+add_nutrient_info()
 
 print("The content of the file is:\n", data)
 print(data.columns)
