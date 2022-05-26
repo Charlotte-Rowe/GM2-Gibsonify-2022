@@ -12,9 +12,10 @@ child_data = pd.DataFrame(child_file)
 data = adult_data.merge(child_data, how='outer')
 
 filename = os.path.join(here, 'Nutrient_names.txt')
-nutrient_names_file = open(filename, 'r')
-nutrient_names = nutrient_names_file.read()
-print(nutrient_names)
+with open(filename,'r') as data_file:
+    nutrient_names = []
+    for line in data_file:
+        nutrient_names.append(line.split()[0])
 
 
 # Gets Member IDs
@@ -29,10 +30,19 @@ for ID in mem_ID:
 rows = len(data.index)
 
 def add_ret_factors():
-    ret_factors = []
-    for i in range(rows):
-        for nutrient in nutrient_names:
-            ret_factors.append(get_ret_factor(data.ITEM_OR_NAME_DISH[i], data.WHEN_EATEN[i]))
-    data=data.assign(RET_FACTORS = ret_factors)
+    for nutrient in nutrient_names:
+        ret_factors = []
+        for i in range(rows):
+            ret_factors.append(get_ret_factor(data.ITEM_OR_NAME_DISH[i], data.WHEN_EATEN[i], nutrient))
+        print(nutrient)
+        data['RET_'+ nutrient] = ret_factors
 
 #def get_nutrient_info():
+
+def get_ret_factor(food_name, cooking_method, nutrient_name):
+    return 1
+
+add_ret_factors()
+
+print("The content of the file is:\n", data)
+print(data.columns)
