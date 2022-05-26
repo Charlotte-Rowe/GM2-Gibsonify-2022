@@ -2,7 +2,7 @@ import pandas as pd
 import os
 here = os.path.dirname(os.path.abspath(__file__))
 
-filename = os.path.join(here, 'Sample_Data.xlsx')
+filename = os.path.join(here, 'Appendix-1-D1_D2_D3_Sample Data.xlsx')
 # Load the xlsx file
 adult_file = pd.read_excel(filename, sheet_name = 1)
 child_file = pd.read_excel(filename, sheet_name = 2)
@@ -10,9 +10,13 @@ child_file = pd.read_excel(filename, sheet_name = 2)
 adult_data = pd.DataFrame(adult_file)
 child_data = pd.DataFrame(child_file)
 data = adult_data.merge(child_data, how='outer')
-# Print the content
-#print("The content of the file is:\n", data)
-#print(data.columns)
+
+filename = os.path.join(here, 'Nutrient_names.txt')
+with open(filename,'r') as data_file:
+    nutrient_names = []
+    for line in data_file:
+        nutrient_names.append(line.split()[0])
+
 
 # Gets Member IDs
 mem_ID = data['MEM_ID']
@@ -24,17 +28,29 @@ for ID in mem_ID:
 # Creates a list of tuples for a given member
 
 rows = len(data.index)
-food_list = []
-for member in members:
-    member_food = []
-    row = 0
-    for i in range(rows):
-        if data.MEM_ID[i] == member:
-            food_name = data.ITEM_OR_NAME_DISH[i]
-            food_amount = data.MEASUREMENT[i]
-            cooking_method = int(data.WHEN_EATEN[i])
-            food_entry = (food_name, food_amount, cooking_method)
-            member_food.append(food_entry)
-    food_list.append(member_food)
 
-mem_to_food = dict(zip(members, food_list))
+def add_ret_factors():
+    for nutrient in nutrient_names:
+        ret_factors = []
+        for i in range(rows):
+            ret_factors.append(get_ret_factor(data.ITEM_OR_NAME_DISH[i], data.WHEN_EATEN[i], nutrient))
+        data['RET_'+ nutrient] = ret_factors
+
+def add_nutrient_info():
+    for nutrient in nutrient_names:
+        nutrient_info = []
+        for i in range(rows):
+            nutrient_info.append(get_nutrient_info(data.ITEM_OR_NAME_DISH[i], data.WHEN_EATEN[i], nutrient, data.MEASUREMENT[i])) # MEASUREMENT IS PLACEHOLDER FOR MASS COLUMN THAT SHOULD BE OUTPUT FROM PART ONE 
+        data[nutrient] = nutrient_info
+
+def get_ret_factor(food_name, cooking_method, nutrient_name):
+    return 1
+
+def get_nutrient_info(food_name, cooking_method, nutrient_name, mass):
+    return 1
+
+add_ret_factors()
+add_nutrient_info()
+
+print("The content of the file is:\n", data)
+print(data.columns)

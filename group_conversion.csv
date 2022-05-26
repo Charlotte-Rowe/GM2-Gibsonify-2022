@@ -1,0 +1,38 @@
+Groups,Retention,Match
+Egg,EGGS,0
+Fruits,TOMATOES,1
+Fruits,FRUITS,1
+Cereal,FLOUR/MEAL,1
+Cereal,OATMEAL,1
+Cereal,PASTA,1
+Cereal,RICE,1
+Cereal,CEREAL,1
+Legumes & Pulses,LEGUMES,0
+Meats & Poultry,BEEF,1
+Meats & Poultry,CHICKEN,1
+Meats & Poultry,LAMB,1
+Meats & Poultry,LIVER,1
+Meats & Poultry,ORGANMEATS(NOTLIVER),1
+Meats & Poultry,BACON,1
+Meats & Poultry,HAM,1
+Meats & Poultry,SAUSAGE,1
+Meats & Poultry,TURKEY,1
+Meats & Poultry,VEAL,1
+Meats & Poultry,PORK,1
+Milk and Milk products,CHEESE,1
+Milk and Milk products,MILK,1
+Nuts and oil seeds,NUTS,0
+Fish,FINFISH,1
+Fish,SHELLFISH,1
+Fish,SEAFOOD,1
+Leafy vegetables,VEG(GREENS),0
+Roots and tuber,POTATOES,1
+Roots and tuber,SWEETPOTATOES,1
+Roots and tuber,VEG(ROOTS),1
+Vegetables,VEG(OTHER),0
+Beverages (Alcoholic),ALC-BEV,0
+Fats and edible oil,MARGARINE,1
+Fats and edible oil,VEGETABLE OIL,1
+Spices & Condiments,None,2
+Sugar,None,2
+Beverages (Non-Alcoholic),None,2
