@@ -3242,7 +3242,7 @@
    },
    "EGG TURTLE": {
       
-         "G_Number": 10,
+         "G_Number": 9,
          "G_Descr": "Egg",
          "G_Food_Code": 464
       
@@ -3334,7 +3334,7 @@
    "TURTLES MEAT": {
       
          "G_Number": 10,
-         "G_Descr": "Meats & Poultry",
+         "G_Descr": "Fish",
          "G_Food_Code": 477
       
    },

@@ -10,7 +10,7 @@ def getIngredients(ingredient):
     return ingData
 
 
-print(getIngredients("BARLEY, RAW"))
+#print(getIngredients("BARLEY, RAW"))
 
 
 def getIngredientsRelevant(ingredient):
@@ -27,7 +27,7 @@ def getIngredientsRelevant(ingredient):
     return possible
 
 
-print(getIngredientsRelevant("ONION"))
+#print(getIngredientsRelevant("ONION"))
 
 
 def getIngredientGroup(ingredient):
@@ -38,7 +38,7 @@ def getIngredientGroup(ingredient):
     return group
 
 
-print(getIngredientGroup("BARLEY, RAW"))
+#print(getIngredientGroup("BARLEY, RAW"))
 
 
 def hasCookingMethod(ingredient):
@@ -51,7 +51,34 @@ def hasCookingMethod(ingredient):
     return False
 
 
-print(hasCookingMethod('ONION SMALL BOILED'))
+#print(hasCookingMethod('ONION SMALL BOILED'))
+
+def matchGroups(ingredient):
+    group = getIngredientGroup(ingredient)
+    data = pandas.read_csv('group_conversion.csv')
+    data = pandas.DataFrame(data)
+    possible = []
+    groups = data['Groups']
+    retentionGroup = data['Retention']
+    groupCode = data['Match']
+    for i in range(0, len(groups)-1):
+        if groups[i]==group:
+            if groupCode[i] == 0: # there is only one matching group
+                return retentionGroup[i]
+            elif groupCode[i] == 2:
+                return 0 # this means that there is no retention factor data for this ingredient
+            possible.append(retentionGroup[i])
+    contains = []
+    for j in range(0, len(possible)):
+        type = possible[j]
+        if ingredient.find(type) != -1:
+            contains.append(type)
+    if len(contains) == 0:
+        return possible[-1]
+    elif len(contains)==1:
+        return contains[0]
+    return contains
+
 
 def getDetails():
     ingredient = input("Enter ingredient name:  ")
@@ -74,9 +101,15 @@ def getDetails():
                 print("That is not an option.")
         ingredient = possible[int(chosen)-1]
     details = getIngredients(ingredient)
-    group = getIngredientGroup(ingredient)
+    group = matchGroups(ingredient)
     method = hasCookingMethod(ingredient)
+    # if method not = then dont get retention factor
+    # if group = 0 then can't get retention factor
+    # have made the default values pork, seafood, veg(root), cereal, veg oil, milk
     return [group, method, details]
 
 
+#print(matchGroups("ONION SMALL BOILED"))
+#print(matchGroups("BARLEY, RAW"))
 print(getDetails())
+
