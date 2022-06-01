@@ -13,7 +13,7 @@ def getIngredients(ingredient):
     return ingData
 
 
-print(getIngredients("BARLEY, RAW"))
+#print(getIngredients("BARLEY, RAW"))
 
 
 def getIngredientsRelevant(ingredient):

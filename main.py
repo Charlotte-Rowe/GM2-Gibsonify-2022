@@ -152,7 +152,6 @@ def create_output():
             ret_factor = data['RET_'+ nutrient].iloc[i]
             nut_level = data[nutrient].iloc[i]
             member = data['MEM_ID'].iloc[i]
-            print(member)
             index = member_list.index(member)
             nutrient_for_member[index] += nut_level * ret_factor
         output_data[nutrient] = nutrient_for_member
@@ -161,14 +160,14 @@ def create_output():
 add_nutrient_info()
 add_ret_factors()
 
-filename = os.path.join(here, 'Output.xlsx')
-file = pd.read_excel(filename)
-data = pd.DataFrame(file)
+#filename = os.path.join(here, 'Output.xlsx')
+#file = pd.read_excel(filename)
+#data = pd.DataFrame(file)
 
 
 output_data = create_output()
 
-#print("The content of the file is:\n", output_data)
+print("The content of the file is:\n", output_data)
 
 filename = os.path.join(here, 'Output2.xlsx')
 output_data.to_excel(filename, index=False)
