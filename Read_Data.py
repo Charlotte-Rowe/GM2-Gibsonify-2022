@@ -71,7 +71,7 @@ def get_ret_factor(food_name, cooking_method):
 
 # Gets nutritional information from nutrient tables - needs to be completed
 
-def get_nutrient_info(food_name, cooking_method, nutrient_name, mass):
+def get_nutrient_info(food_name, cooking_method, mass):
     return 1
 
 # Checks if nutrient entry includes retention info already - needs to be completed
