@@ -1,4 +1,4 @@
-from anytree import Node, RenderTree
+from anytree import Node, RenderTree, search
 
 root = Node("Ingredient")
 plant = Node("Plant based", parent=root)
@@ -26,5 +26,17 @@ finfish = Node("Finfish", parent=fish)
 shellfish = Node("Shellfish", parent=fish)
 otherFish = Node("Other fish", parent=fish)
 
-for pre, fill, node in RenderTree(root):
-    print("%s%s" % (pre, node.name))
+#for pre, fill, node in RenderTree(root):
+#    print("%s%s" % (pre, node.name))
+
+
+def findNearest(node):  # returns child above given node, which is assumed to be most similar
+    siblings = node.parent.children
+    closest = 0
+    for i in(0, len(siblings)-1):
+        if siblings[i]==node:
+            closest = divmod((i-1), len(siblings))[1]
+    return siblings[closest].name
+
+
+print(findNearest(sheep))
