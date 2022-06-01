@@ -3,6 +3,10 @@ import pandas as pd
 import os
 here = os.path.dirname(os.path.abspath(__file__))
 
+filename = os.path.join(here, 'Appendix-1-D1_D2_D3_Sample Data.xlsx')
+file = pd.read_excel(filename)
+all_codes = pd.DataFrame(file)
+
 filename = os.path.join(here, 'Type_to_Retention.csv')
 type_retention = pd.read_csv(filename)
 retention_data = pd.DataFrame(type_retention)
@@ -56,10 +60,11 @@ def best_type_guess(descr):
     if len(best_guess_list) == 1:
         return best_guess_list[0]
     else:
-        for guess in best_guess_list:
-            print(guess)
-        best_guess = input('Select best description of ' + str(descr) + ' from list above (Select 1 for first option, 2 for second, ...) ')
-        return best_guess_list[int(best_guess) - 1]
+        #for guess in best_guess_list:
+            #print(guess)
+        # = input('Select best description of ' + str(descr) + ' from list above (Select 1 for first option, 2 for second, ...) ')
+        #return best_guess_list[int(best_guess) - 1]
+        return best_guess_list[0]
 
 # Fetches Retention Factors provided description is in appropriate format
 
@@ -75,10 +80,10 @@ def fetch_ret_factors(entry):
 def build_cooking_method_list():
     method_codes = []
     method = []
-    codes = list(data['Code'])
-    descriptions = list(data['Description'])
-    list_start_index = data.index[data['Varuiable'] == 'WHEN_EATEN'].values[0]
-    list_end_index = data.index[data['Varuiable'] == 'MEASUR_METHOD'].values[0]
+    codes = list(all_codes['Code'])
+    descriptions = list(all_codes['Description'])
+    list_start_index = all_codes.index[all_codes['Varuiable'] == 'WHEN_EATEN'].values[0]
+    list_end_index = all_codes.index[all_codes['Varuiable'] == 'MEASUR_METHOD'].values[0]
     index = list_start_index
     while index < list_end_index:
         method_codes.append(codes[index])

@@ -3,6 +3,7 @@ import pandas
 
 methods = ['BOILED', 'ROASTED', 'FRIED', 'POACHED', 'BAKED', 'STEWED']  # this needs to be checked
 
+
 def getIngredients(ingredient):
     # gets nutrient information
     # ingredient must match ingredient name in all ways except the case
@@ -12,7 +13,7 @@ def getIngredients(ingredient):
     return ingData
 
 
-#print(getIngredients("BARLEY, RAW"))
+print(getIngredients("BARLEY, RAW"))
 
 
 def getIngredientsRelevant(ingredient):
@@ -61,10 +62,10 @@ def cookingMethodEntry(ingredient, method):
         if item.find(" "+method.upper()) != -1:
             possible.append(item)
     if len(possible)==1:
-        return possible[0]
+        return [possible[0]]
     elif len(possible)>1:
         return possible
-    return False
+    return 0
 
 
 #print(cookingMethodEntry("RICE", "BOILED"))
@@ -127,5 +128,5 @@ def getDetails(cook_method):
 #print(matchGroups("ONION SMALL BOILED"))
 #print(matchGroups("BARLEY, RAW"))
 
-print(getDetails())
+#print(getDetails())
 
