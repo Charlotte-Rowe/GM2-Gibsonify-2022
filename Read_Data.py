@@ -88,3 +88,6 @@ add_ret_factors()
 #add_nutrient_info()
 
 print("The content of the file is:\n", data)
+
+filename = os.path.join(here, 'Output.xlsx')
+data.to_excel(filename, index = False)
