@@ -1,6 +1,7 @@
 import json
 import pandas
 
+methods = ['BOILED', 'ROASTED', 'FRIED', 'POACHED', 'BAKED', 'STEWED']  # this needs to be checked
 
 def getIngredients(ingredient):
     # gets nutrient information
@@ -45,7 +46,6 @@ def getIngredientGroup(ingredient):
 def hasCookingMethod(ingredient):
     # return true if contains cooking method in ingredient name
     # assume the ingredient name is exact
-    methods = ['BOILED', 'ROASTED', 'FRIED'] # this needs to be checked
     for method in methods:
         if ingredient.find(method) != -1:
             return method
@@ -67,7 +67,7 @@ def cookingMethodEntry(ingredient, method):
     return False
 
 
-print(cookingMethodEntry("RICE", "BOILED"))
+#print(cookingMethodEntry("RICE", "BOILED"))
 
 def matchGroups(ingredient):
     group = getIngredientGroup(ingredient)
@@ -96,7 +96,7 @@ def matchGroups(ingredient):
     return contains
 
 
-def getDetails():
+def getDetails(cook_method):
     ingredient = input("Enter ingredient name:  ")
     possible = getIngredientsRelevant(ingredient)
     if len(possible) == 0:
@@ -119,13 +119,13 @@ def getDetails():
     details = getIngredients(ingredient)
     group = matchGroups(ingredient)     # have made the default values pork, seafood, veg(root), cereal, veg oil, milk
     method = hasCookingMethod(ingredient)
-    if method != 0:     # if method not = 0 then dont get retention factor
-        group = 0 # if group = 0 we do not get the retention factor
+    if method != 0:     # if method = 0 then get retention factor
+        group = 0       # if group = 0 we do not get the retention factor
     return [group, method, details]
 
 
 #print(matchGroups("ONION SMALL BOILED"))
 #print(matchGroups("BARLEY, RAW"))
 
-#print(getDetails())
+print(getDetails())
 
