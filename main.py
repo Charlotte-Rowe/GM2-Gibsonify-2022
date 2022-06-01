@@ -1,3 +1,4 @@
+from re import M
 import pandas as pd
 import os
 import getRetentionFactors as grf
@@ -54,7 +55,7 @@ def add_ret_factors():
 
 missed = []
 
-# Adds columns to data table detailing nutrient values for each nutrient - needs to be completed
+# Adds columns to data table detailing nutrient values for each nutrient
 def add_nutrient_info():
     for nutrient in nutrient_names:
         for i in range(rows):
@@ -89,7 +90,7 @@ def get_ret_factor(food_name, cooking_method):
         return np.ones(26)
 
 
-# Gets nutritional information from nutrient tables - needs to be completed
+# Gets nutritional information from nutrient tables
 def get_nutrient_info(food_name, cooking_method, mass):
     ingredient = ""
     c_method_list = grf.build_cooking_method_list()
@@ -112,7 +113,7 @@ def get_nutrient_info(food_name, cooking_method, mass):
 
 # get_nutrient_info("potato", "boiled", 100)
 
-# Checks if nutrient entry includes retention info already - needs to be completed
+# Checks if nutrient entry includes retention info already
 def check_nutrient_table(food_name, cooking_method):
     if gid.cookingMethodEntry(food_name, cooking_method) != 0:
         return 1
@@ -122,7 +123,7 @@ def check_nutrient_table(food_name, cooking_method):
 missing = []
 
 
-# Fetches food type - needs to be completed
+# Fetches food type
 def get_food_type (food_name):
     ingredient = gid.getIngredientsRelevant(food_name)
     food_entry = ""
@@ -138,10 +139,36 @@ def get_food_type (food_name):
             missing.append(food_name)
         return -1    # no ingredients matching food name
 
+# Creates output in form: member_ID, total nutrient 1, total nutrient 2, ...
+
+def create_output():
+    member_list = fetch_members()
+    members = {'MEMBERS': member_list}
+    no_members=len(member_list)
+    output_data = pd.DataFrame(members)
+    for nutrient in nutrient_names:
+        nutrient_for_member = np.zeros(no_members)
+        for i in range(rows):
+            ret_factor = data['RET_'+ nutrient].iloc[i]
+            nut_level = data[nutrient].iloc[i]
+            member = data['MEM_ID'].iloc[i]
+            print(member)
+            index = member_list.index(member)
+            nutrient_for_member[index] += nut_level * ret_factor
+        output_data[nutrient] = nutrient_for_member
+    return(output_data)
+
 add_nutrient_info()
 add_ret_factors()
 
-print("The content of the file is:\n", data)
-
 filename = os.path.join(here, 'Output.xlsx')
-data.to_excel(filename, index=False)
+file = pd.read_excel(filename)
+data = pd.DataFrame(file)
+
+
+output_data = create_output()
+
+#print("The content of the file is:\n", output_data)
+
+filename = os.path.join(here, 'Output2.xlsx')
+output_data.to_excel(filename, index=False)
