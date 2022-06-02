@@ -62,7 +62,7 @@ def add_nutrient_info():
             data[nutrient] = 1
     for i in range(rows):
         nutrient_info=get_nutrient_info(data.INGREDIENT_NAME[i], data.WHEN_EATEN[i], data.WEIGHT_IN_G[i])
-        if nutrient_info == 0:
+        if type(nutrient_info) == int:
             if data.INGREDIENT_NAME[i] not in missed:
                 print("no ingredient: ",data.INGREDIENT_NAME[i])
                 missed.append(data.INGREDIENT_NAME[i])
@@ -103,11 +103,12 @@ def get_nutrient_info(food_name, cooking_method, mass):
             return 0
         ingredient = ingredient[0]
     nutrients = gid.getIngredients(ingredient)
-    nutrients = nutrients.values.tolist()
+    nutrients = np.array(nutrients.values)
     nutrients = nutrients[2:]
     temp = nutrients[15]
     nutrients[15] = nutrients[17]
     nutrients[17] = temp
+    nutrients = nutrients * (mass/100)
     return nutrients
 
 
