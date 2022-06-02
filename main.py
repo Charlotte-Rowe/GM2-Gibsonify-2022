@@ -158,12 +158,12 @@ def create_output():
         output_data[nutrient] = nutrient_for_member
     return(output_data)
 
-#add_nutrient_info()
-#add_ret_factors()
+add_nutrient_info()
+add_ret_factors()
 
-filename = os.path.join(here, 'Output.xlsx')
-file = pd.read_excel(filename)
-data = pd.DataFrame(file)
+#filename = os.path.join(here, 'Output.xlsx')
+#file = pd.read_excel(filename)
+#data = pd.DataFrame(file)
 
 
 output_data = create_output()
