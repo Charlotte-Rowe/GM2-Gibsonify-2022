@@ -168,7 +168,9 @@ add_ret_factors()
 
 output_data = create_output()
 
-print("The content of the file is:\n", output_data)
+filename = os.path.join(here, 'Output.xlsx')
+data.to_excel(filename, index=False)
 
+print("The content of the file is:\n", output_data)
 filename = os.path.join(here, 'Output2.xlsx')
 output_data.to_excel(filename, index=False)
