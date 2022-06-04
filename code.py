@@ -30,7 +30,6 @@ for i in range(len(recipe_data)):
             find_volume.append(c)
 
 
-
 #Now find mass for the recipe in find_mass:
 for i in range(len(raw_data)):
     a = new_data['RECIPE_NUMBER'][i]
@@ -47,33 +46,33 @@ for i in range(len(raw_data)):
             new_data.loc[i,'weight in g'] = new_data.loc[i,'volume in ml']*density
         if method == 3: #need modify
             if new_data.loc[i,'SIZE'] == 1:
-                vol= 2
+                vol= 8
             if new_data.loc[i,'SIZE'] == 2:
-                vol= 4
+                vol= 15
             if new_data.loc[i,'SIZE'] == 3:
-                vol= 30
+                vol= 250
             if new_data.loc[i,'SIZE'] == 4:
-                vol= 5
+                vol= 30
             if new_data.loc[i,'SIZE'] == 5:
-                vol= 10
+                vol= 60
             if new_data.loc[i,'SIZE'] == 6:
-                vol= 20
+                vol= 90
             if new_data.loc[i,'SIZE'] == 7:
-                vol= 3
+                vol= 15
             new_data.loc[i,'volume in ml'] = float(new_data.loc[i,'MEASUREMENT'])*vol
             density = 1 #need modify!
             new_data.loc[i,'weight in g'] = new_data.loc[i,'volume in ml']*density
-            #the above is just there to give some reasonable output, method 3 I haven't figure out 
+            #need include new input and modify
         if method == 5:
             new_data.loc[i,'volume in ml'] = 10*float(new_data.loc[i,'MEASUREMENT'])
             density = 1 #need modify!
             new_data.loc[i,'weight in g'] = new_data.loc[i,'volume in ml']*density
-            #the above is just there to give some reasonable output, method 5 I haven't figure out 
+            #need include new input and modify
         if method == 6:
             new_data.loc[i,'volume in ml'] = 10*float(new_data.loc[i,'SIZE'])
             density = 1 #need modify!
             new_data.loc[i,'weight in g'] = new_data.loc[i,'volume in ml']*density
-            #the above is just there to give some reasonable output, method 6 I haven't figure out
+            #need include new input and modify
 
 
 
@@ -106,7 +105,7 @@ for i in range(len(raw_data)):
             new_data.loc[i,'volume in ml'] = float(new_data.loc[i,'MEASUREMENT'])*vol
         if method == 4:
             new_data.loc[i,'volume in ml'] = 1000*float(new_data.loc[i,'MEASUREMENT'])
-            #need modify
+            #need include new input and modify
 
 
 #Now find mass for the ingredients of recipe in find_volume:
@@ -133,6 +132,6 @@ new_data_final.drop(['MEASUR_METHOD','MEASUREMENT','GRAMS_OR_ML','SIZE','NUMBER'
 
         
 
-writer = pd.ExcelWriter('new_data!.xlsx')
+writer = pd.ExcelWriter('new_data_final.xlsx')
 new_data_final.to_excel(writer)
 writer.save()
