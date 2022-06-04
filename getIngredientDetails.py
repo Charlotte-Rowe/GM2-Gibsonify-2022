@@ -1,11 +1,12 @@
 import json
 import pandas
 
-methods = ['BOILED', 'ROASTED', 'FRIED', 'POACHED', 'BAKED', 'STEWED']  # this needs to be checked
+methods = ['BOILED', 'ROASTED', 'FRIED', 'POACHED', 'BAKED', 'STEWED']
+# this is incomplete but should contain all methods that are in the nutrition table
 
 
 def getIngredients(ingredient):
-    # gets nutrient information
+    # gets nutrient information from nutrition table
     # ingredient must match ingredient name in all ways except the case
     data = pandas.read_json('ingredients.json')
     caps = ingredient.upper()
@@ -13,15 +14,16 @@ def getIngredients(ingredient):
     return ingData
 
 
-#print(getIngredients("BARLEY, RAW"))
+# print(getIngredients("BARLEY, RAW"))
 
 
 def getIngredientsRelevant(ingredient):
-    # ingredient must contain words in the target ingredient object, returns possible objects
+    # ingredient must contain words in the target ingredient object
+    # returns possible objects of ingredients that contain the ingredient word input
     data = pandas.read_json('ingredients.json')
     ingCaps = ingredient.upper()
     words = ingCaps.split()
-    #print(words)
+    # print(words)
     possible = []
     for item in data:
         for word in range(0, len(words)):
@@ -30,7 +32,7 @@ def getIngredientsRelevant(ingredient):
     return possible
 
 
-#print(getIngredientsRelevant("ONION"))
+# print(getIngredientsRelevant("ONION"))
 
 
 def getIngredientGroup(ingredient):
@@ -41,7 +43,7 @@ def getIngredientGroup(ingredient):
     return group
 
 
-#print(getIngredientGroup("BARLEY, RAW"))
+# print(getIngredientGroup("BARLEY, RAW"))
 
 
 def hasCookingMethod(ingredient):
@@ -53,9 +55,12 @@ def hasCookingMethod(ingredient):
     return False
 
 
-#print(hasCookingMethod('ONION SMALL BOILED'))
+# print(hasCookingMethod('ONION SMALL BOILED'))
+
 
 def cookingMethodEntry(ingredient, method):
+    # checks if there is an entry for a certain ingredient and cooking method
+    # returns 0 if there is not an entry, or the entry if it exists (first possible if there are several)
     relevant = getIngredientsRelevant(ingredient.upper())
     possible = []
     for item in relevant:
@@ -68,9 +73,13 @@ def cookingMethodEntry(ingredient, method):
     return 0
 
 
-#print(cookingMethodEntry("RICE", "BOILED"))
+# print(cookingMethodEntry("RICE", "BOILED"))
+
 
 def matchGroups(ingredient):
+    # gets the group in the retention factors table for an ingredient
+    # returns 0 if there is no retention factors for the ingredient
+    # returns the group or best guess of group if there is a retention factor for the ingredient
     group = getIngredientGroup(ingredient)
     data = pandas.read_csv('group_conversion.csv')
     data = pandas.DataFrame(data)
@@ -80,10 +89,10 @@ def matchGroups(ingredient):
     groupCode = data['Match']
     for i in range(0, len(groups)-1):
         if groups[i]==group:
-            if groupCode[i] == 0: # there is only one matching group
+            if groupCode[i] == 0:  # there is only one matching group
                 return retentionGroup[i]
             elif groupCode[i] == 2:
-                return 0 # this means that there is no retention factor data for this ingredient
+                return 0  # this means that there is no retention factor data for this ingredient
             possible.append(retentionGroup[i])
     contains = []
     for j in range(0, len(possible)):
@@ -98,6 +107,8 @@ def matchGroups(ingredient):
 
 
 def getDetails(cook_method):
+    # a test function that uses the previous functions
+    # requires used input at certain stages
     ingredient = input("Enter ingredient name:  ")
     possible = getIngredientsRelevant(ingredient)
     if len(possible) == 0:
